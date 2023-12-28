@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@900&family=Playfair+Display:wght@600&family=Raleway:wght@400&family=Roboto+Condensed:wght@500&family=Rubik+Scribble&family=Rubik+Vinyl&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.NavContainer {
+    background-image: url(../public/blackandwhite.png);
+    background-size: cover;
+    height: 730px;
+    width: 100%;
+}
+
+.Navbar-scroll {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.Navbar1 {
+    display: flex;
+    justify-content: center;
+    transition: .3s ease-in;
+    width: 100%;
+}
+
+
+
+.Navbar2 {
+    color: whitesmoke;
+    font-family: 'Rubik Scribble', sans-serif;
+    font-size: 25px;
+    transition-duration: .3s ease-in;
+}
+
+.NavBar li:hover {
+    font-family: 'Rubik Vinyl', sans-serif;
+}
+
+.HeadSection {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 60px;
+}
+
+.linkedin,
+.instagram,
+.discord,
+.github,
+.twitter {
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+.linkedin:hover {
+    color: #0077b5;
+
+
+}
+
+.instagram:hover {
+    color: #cd486b;
+}
+
+.discord:hover {
+    color: #7289d9;
+}
+
+.github:hover {
+    color: #2DBA4E;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.long-dash::before {
+    content: '\2014';
+    /* Unicode for en dash */
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.section-heading {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Playfair Display', serif
+}
+
+.sub-heading {
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Playfair Display', serif color;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.smallsub-heading {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Playfair Display', serif color;
+    color: #425BB5;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.progress-bar {
+    position: fixed;
+
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: red;
+    transform-origin: 0%;
+
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.box {
+    transition: 0.4s ease 0s;
+
+}
+
+.box:hover {
+    box-shadow: 2px 5px 12px 0px #cbcdcf;
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+.Project1 {
+    background-image: url(../public/favicon.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.Project2 {
+    background-image: url(../public/nodejs.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.Project3 {
+    background-image: url(../public/htmlcssmini.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
