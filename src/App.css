@@ -1,47 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@900&family=Playfair+Display:wght@600&family=Raleway:wght@400&family=Roboto+Condensed:wght@500&family=Rubik+Scribble&family=Rubik+Vinyl&family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@900&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Raleway&family=Roboto+Condensed:wght@500&family=Rubik+Scribble&family=Rubik+Vinyl&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 
-.NavContainer {
-    background-image: url(../public/blackandwhite.png);
-    background-size: cover;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.HeadContainer {
+    background-image: url(/public/background.jpg);
     height: 730px;
     width: 100%;
 }
 
-.Navbar-scroll {
-    background-color: rgba(0, 0, 0, .9);
+.Signature {
+    background-image: url(/public/NiteshSignature.svg);
+    width: 270px;
+    height: 150px;
+    background-size: cover;
+    margin-right: 10px;
 }
+
+
+
 
 .Navbar1 {
     display: flex;
     justify-content: center;
     transition: .3s ease-in;
     width: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0;
 }
 
 
 
-.Navbar2 {
+
+
+nav {
     color: whitesmoke;
-    font-family: 'Rubik Scribble', sans-serif;
-    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+
+    text-transform: uppercase;
     transition-duration: .3s ease-in;
 }
 
-.NavBar li:hover {
-    font-family: 'Rubik Vinyl', sans-serif;
-}
+
 
 .HeadSection {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
-    font-size: 60px;
+
 }
 
 .linkedin,
@@ -50,7 +72,8 @@
 .github,
 .twitter {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 35px;
+
 
 }
 
@@ -112,12 +135,13 @@
 
 .progress-bar {
     position: fixed;
-
     left: 0;
     right: 0;
+    margin-top: 39px;
     height: 10px;
-    background: red;
+    background: grey;
     transform-origin: 0%;
+    z-index: 20;
 
 }
 
@@ -139,24 +163,44 @@ li {
     cursor: pointer;
 }
 
-.Project1 {
-    background-image: url(../public/favicon.png);
-    background-size: cover;
+.Project-Image {
     width: 400px;
     height: 400px;
-    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 14px 0px #3b3c3c;
+
 }
 
-.Project2 {
-    background-image: url(../public/nodejs.png);
-    background-size: cover;
+.project-info {
+
     width: 400px;
     height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 600;
+
+
 }
 
-.Project3 {
-    background-image: url(../public/htmlcssmini.jpg);
-    background-size: cover;
-    width: 400px;
+form {
+    width: 550px;
     height: 400px;
+
+}
+
+label {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: larger;
+}
+
+.Message {
+    width: 80%;
+    margin-left: 30px;
 }
