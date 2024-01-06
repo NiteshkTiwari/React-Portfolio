@@ -9,7 +9,7 @@ import ContactMe from "./components/contact";
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
       <HeadSection />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Skill />
       <Project />
       <ContactMe />
-    </>
+    </div>
   );
 }
 
