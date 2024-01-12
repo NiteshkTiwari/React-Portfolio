@@ -30,12 +30,32 @@ function HeadSection() {
   return (
     <section className="HeadContainer flex justify-between gap-2" id="home">
       <div className="HeadSection self-center inline-block ml-20">
-        <h3 className="py-4 text-4xl font-semibold">Hello ,it's Me</h3>
-        <h1 className="py-4 px-3 text-6xl font-bold ">Nitesh Tiwari</h1>
-        <h3 className="py-4 pr-10 text-4xl font-semibold">
+        <h3
+          className="py-4 text-4xl font-semibold"
+          data-aos="fade-right"
+          data-aos-duration="500"
+        >
+          Hello ,it's Me
+        </h3>
+        <h1
+          className="py-4 px-3 text-6xl font-bold "
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
+          Nitesh Tiwari
+        </h1>
+        <h3
+          className="py-4 pr-10 text-4xl font-semibold"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           And I'm a <span ref={el} style={{ color: "#425BB5" }} />
         </h3>
-        <div className=" flex justify-between w-60 mx-16 mt-7">
+        <div
+          className=" flex justify-between w-60 mx-16 mt-7"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
           <a href="https://www.linkedin.com/in/nitesh-tiwari-96803924a/">
             <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
           </a>
@@ -66,6 +86,8 @@ function HeadSection() {
           marginRight: "30px",
           marginTop: "80px",
         }}
+        data-aos="fade-left"
+        data-aos-duration="800"
       />
     </section>
   );
