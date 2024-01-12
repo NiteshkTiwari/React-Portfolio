@@ -28,7 +28,7 @@ function HeadSection() {
     });
   }, []);
   return (
-    <div className="HeadContainer flex justify-between gap-2">
+    <section className="HeadContainer flex justify-between gap-2" id="home">
       <div className="HeadSection self-center inline-block ml-20">
         <h3 className="py-4 text-4xl font-semibold">Hello ,it's Me</h3>
         <h1 className="py-4 px-3 text-6xl font-bold ">Nitesh Tiwari</h1>
@@ -67,7 +67,7 @@ function HeadSection() {
           marginTop: "80px",
         }}
       />
-    </div>
+    </section>
   );
 }
 

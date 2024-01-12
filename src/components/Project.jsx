@@ -11,7 +11,7 @@ import "@splidejs/react-splide/css/core";
 
 function Project() {
   return (
-    <div className="Projects pt-14 pb-14 px-14 bg-[#f3f3f3]">
+    <section className="Projects pt-14 pb-14 px-14 bg-[#f3f3f3]" id="project">
       <h1 className="text-3xl text-[#425BB5] long-dash mx-20">04</h1>
       <h1 className="py-7 section-heading mx-20">
         My
@@ -86,7 +86,7 @@ function Project() {
           </div>
         </SplideSlide>
       </Splide>
-    </div>
+    </section>
   );
 }
 

@@ -3,7 +3,10 @@ import animation from "../assets/main.json";
 
 function About() {
   return (
-    <div className="About flex justify-between pt-14 pb-14 px-14 bg-white">
+    <section
+      className="About flex justify-between pt-14 pb-14 px-14 bg-white"
+      id="about"
+    >
       <div className="flex-col mx-20">
         <h1 className="text-3xl text-[#425BB5] long-dash"> 01</h1>
         <h1 className="py-7 section-heading">
@@ -28,7 +31,7 @@ function About() {
         animationData={animation}
         style={{ width: "1100px", height: "600px", marginRight: "80px" }}
       />
-    </div>
+    </section>
   );
 }
 

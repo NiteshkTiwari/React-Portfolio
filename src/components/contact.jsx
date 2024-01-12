@@ -27,7 +27,7 @@ function ContactMe() {
       );
   };
   return (
-    <div className="pt-14 pb-14 px-14 bg-white">
+    <section className="pt-14 pb-14 px-14 bg-white" id="contact">
       <h1 className="text-3xl text-[#425BB5] long-dash mx-20"> 05</h1>
       <h1 className="py-7 section-heading mx-20">Contact Me</h1>
       <div className="Message flex justify-between">
@@ -63,7 +63,7 @@ function ContactMe() {
           style={{ width: "400px", height: "400px" }}
         />
       </div>
-    </div>
+    </section>
   );
 }
 

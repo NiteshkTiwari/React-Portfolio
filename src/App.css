@@ -45,12 +45,17 @@ body {
     top: 0;
 }
 
+nav a:hover,
+nav a.active {
+    color: #ffff;
+}
+
 
 
 
 
 nav {
-    color: whitesmoke;
+    color: grey;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 

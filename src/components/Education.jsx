@@ -4,7 +4,10 @@ import Educationani from "../assets/Education.json";
 
 function Education() {
   return (
-    <div className="Education pt-14 pb-14 px-14 bg-[#f3f3f3]">
+    <section
+      className="Education pt-14 pb-14 px-14 bg-[#f3f3f3]"
+      id="education"
+    >
       <h1 className="text-3xl text-[#425BB5] long-dash mx-20"> 02</h1>
       <h1 className="py-7 section-heading mx-20">
         My <br />
@@ -53,7 +56,7 @@ function Education() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

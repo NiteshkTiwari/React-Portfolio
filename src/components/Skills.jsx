@@ -13,7 +13,7 @@ import skillset from "../assets/Skillset.json";
 
 function Skill() {
   return (
-    <div className="skills pt-14 pb-14 px-14 bg-white">
+    <section className="skills pt-14 pb-14 px-14 bg-white" id="skill">
       <h1 className="text-3xl text-[#425BB5] long-dash mx-20">03</h1>
       <h1 className="py-7 section-heading mx-20">
         My
@@ -133,7 +133,7 @@ function Skill() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
