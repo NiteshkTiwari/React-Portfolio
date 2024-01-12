@@ -12,8 +12,18 @@ import "@splidejs/react-splide/css/core";
 function Project() {
   return (
     <section className="Projects pt-14 pb-14 px-14 bg-[#f3f3f3]" id="project">
-      <h1 className="text-3xl text-[#425BB5] long-dash mx-20">04</h1>
-      <h1 className="py-7 section-heading mx-20">
+      <h1
+        className="text-3xl text-[#425BB5] long-dash mx-20"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
+        04
+      </h1>
+      <h1
+        className="py-7 section-heading mx-20"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
         My
         <br />
         Projects
@@ -31,7 +41,11 @@ function Project() {
           width: 1000,
           height: 500,
         }}
-        className="mx-40"
+        className="ml-40"
+        data-aos="flip-up"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="50"
       >
         <SplideSlide className="bg-white flex justify-between ">
           <img src="/trekking.jpg" alt="Img-1" className="Project-Image"></img>

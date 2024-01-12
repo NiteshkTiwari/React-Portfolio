@@ -14,8 +14,18 @@ import skillset from "../assets/Skillset.json";
 function Skill() {
   return (
     <section className="skills pt-14 pb-14 px-14 bg-white" id="skill">
-      <h1 className="text-3xl text-[#425BB5] long-dash mx-20">03</h1>
-      <h1 className="py-7 section-heading mx-20">
+      <h1
+        className="text-3xl text-[#425BB5] long-dash mx-20"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
+        03
+      </h1>
+      <h1
+        className="py-7 section-heading mx-20"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
         My
         <br />
         Tech-Stack
@@ -32,6 +42,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
             <span className="box">
@@ -42,6 +56,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
 
@@ -53,6 +71,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
           </div>
@@ -66,6 +88,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
 
@@ -77,6 +103,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
 
@@ -88,6 +118,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
           </div>
@@ -100,6 +134,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
 
@@ -111,6 +149,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
 
@@ -122,6 +164,10 @@ function Skill() {
                   height: "100px",
                   background: "#F5F7F8 ",
                 }}
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="50"
               />
             </span>
           </div>
@@ -130,6 +176,10 @@ function Skill() {
           <Lottie
             animationData={skillset}
             style={{ width: "600px", height: "600px", marginRight: "80px" }}
+            data-aos="zoom-in-right"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="50"
           />
         </div>
       </div>

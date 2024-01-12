@@ -28,9 +28,28 @@ function ContactMe() {
   };
   return (
     <section className="pt-14 pb-14 px-14 bg-white" id="contact">
-      <h1 className="text-3xl text-[#425BB5] long-dash mx-20"> 05</h1>
-      <h1 className="py-7 section-heading mx-20">Contact Me</h1>
-      <div className="Message flex justify-between">
+      <h1
+        className="text-3xl text-[#425BB5] long-dash mx-20"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
+        {" "}
+        05
+      </h1>
+      <h1
+        className="py-7 section-heading mx-20"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >
+        Contact Me
+      </h1>
+      <div
+        className="Message flex justify-between"
+        data-aos="zoom-in-right"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="50"
+      >
         <form
           ref={form}
           onSubmit={sendEmail}
