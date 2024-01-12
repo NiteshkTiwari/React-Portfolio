@@ -8,25 +8,27 @@ import Project from "./components/Project";
 import ContactMe from "./components/contact";
 
 function App() {
-  let section = document.querySelectorAll("section");
-  let navLink = document.querySelectorAll("header nav a");
+  // let section = document.querySelectorAll("section");
+  // let navLink = document.querySelectorAll("header nav a");
 
-  window.onscroll = () => {
-    section.forEach((sec) => {
-      let top = window.scrollY;
-      let offset = sec.offsetTop - 150;
-      let height = sec.offsetHeight;
-      let id = sec.getAttribute("id");
-      if (top >= offset && top < offset + height) {
-        navLink.forEach((links) => {
-          links.classList.remove("active");
-          document
-            .querySelector("header nav a[href*=" + id + "]")
-            .classList.add("active");
-        });
-      }
-    });
-  };
+  // window.onscroll = () => {
+  //   section.forEach((sec) => {
+  //     let top = window.scrollY;
+  //     let offset = sec.offsetTop - 150;
+  //     let height = sec.offsetHeight;
+  //     let id = sec.getAttribute("id");
+  //     console.log(sec);
+  //     if (top >= offset && top < offset + height) {
+  //       navLink.forEach((links) => {
+  //         links.classList.remove("active");
+  //         document
+  //           .querySelector("header nav a[href*=" + id + "]")
+  //           .classList.add("active");
+  //         console.log(links);
+  //       });
+  //     }
+  //   });
+  // };
   return (
     <div>
       <NavBar />
