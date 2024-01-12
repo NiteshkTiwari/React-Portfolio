@@ -87,7 +87,7 @@ function HeadSection() {
           marginTop: "80px",
         }}
         data-aos="fade-left"
-        data-aos-duration="800"
+        data-aos-duration="1500"
       />
     </section>
   );
