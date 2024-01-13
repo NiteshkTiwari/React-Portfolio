@@ -212,3 +212,18 @@ label {
     width: 80%;
     margin-left: 30px;
 }
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: #343434;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+
+    border-radius: 80vw;
+}
