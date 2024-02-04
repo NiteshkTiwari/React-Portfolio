@@ -1,9 +1,11 @@
 import Lottie from "lottie-react";
 
 import Educationani from "../assets/Education.json";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init();
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// AOS.init({
+//   once: true,
+// });
 
 function Education() {
   return (
