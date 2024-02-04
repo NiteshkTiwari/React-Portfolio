@@ -7,6 +7,13 @@ import HeadSection from "./components/HeadSection";
 import Project from "./components/Project";
 import ContactMe from "./components/contact";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+Aos.init({
+  once: true,
+});
+
 function App() {
   // let section = document.querySelectorAll("section");
   // let navLink = document.querySelectorAll("header nav a");
